@@ -40,6 +40,7 @@ function Stars() {
     return (
         <div className="container h1">
             <div id="starRow" className="row starRow">
+                <h1>This is the Rating Container don't know why it is narrow</h1>
                 <div className="col">
                     <button className="btn btn-success" onClick={addRating}>+</button>
                     <button className="btn btn-danger" onClick={lowerRating}>-</button>

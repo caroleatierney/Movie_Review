@@ -9,9 +9,9 @@ function Review() {
         <form>
 
             <div className='review'>
-                <h1>{name}</h1>
-                <h1>{date}</h1>
-                <h3>{review}</h3>
+                {/* <h1>{name}</h1> */}
+                {/* <h1>{date}</h1> */}
+                {/* <h3>{review}</h3> */}
             </div>
         </form>
     )

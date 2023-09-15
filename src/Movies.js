@@ -55,8 +55,8 @@ const Movies = () => {
                 <h1>This is the Movie Container</h1>
                 <h2>id: "2"</h2>
                 <h2>Indiana Jones and the Raiders of the Lost Ark"</h2>
-                <div>"https://m.media-amazon.com/images/M/MV5BNTU2ODkyY2MtMjU1NC00NjE1LWEzYjgtMWQ3MzRhMTE0NDc0XkEyXkFqcGdeQXVyMjM4MzQ4OTQ@._V1_.jpg"</div>
-                <div>https://www.imdb.com/title/tt0082971</div>
+                <div><img src="https://m.media-amazon.com/images/M/MV5BNTU2ODkyY2MtMjU1NC00NjE1LWEzYjgtMWQ3MzRhMTE0NDc0XkEyXkFqcGdeQXVyMjM4MzQ4OTQ@._V1_.jpg"></img></div>
+                <div><button> ahref="c"></button></div>
 
                 <Stars />
                 <RatingForm />
