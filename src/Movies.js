@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Movies.css';
 import Stars from './Stars';
 import RatingForm from './RatingForm';
+import Review from './Review';
 
 let query = "Indiana"
 const API_URL = "https://movie-database-imdb.p.rapidapi.com/movies/?name=" + query;
@@ -59,6 +60,7 @@ const Movies = () => {
 
                 <Stars />
                 <RatingForm />
+                <Review />
 
                 {/* {movies?.map((movie) => (
                     <div className="card" key={movie.id}>

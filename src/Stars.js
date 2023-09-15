@@ -89,7 +89,7 @@ function Stars() {
                     //     <img src="./Star.png" class="star" alt="Star" />
                     // } */}
 
-                    <img src="./Star.png" class="star" alt="Star" />
+                    <img src="./Star.png" className="star" alt="Star" />
                     {stars} rating
                 </div>
             </div>
