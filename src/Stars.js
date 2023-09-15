@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './App.css';
+import './Stars.css';
 
 function Stars() {
     const [stars, setStars] = useState(0);
