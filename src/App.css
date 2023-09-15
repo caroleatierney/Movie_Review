@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.star {
+    /* max-width: 100%; */
+    /* height: auto; */
+    max-height: calc(50vh + 180px);
+    width: 35px;
+    height: 35px;
+    display: flex;
+    display: inline;
+}
+
+
+.starRow {
+  display: flex;
+  flex-direction: row;
+}
