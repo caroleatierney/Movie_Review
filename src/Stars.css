@@ -24,3 +24,9 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.starsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

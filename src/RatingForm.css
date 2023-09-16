@@ -1,4 +1,10 @@
-.form-group {
+/* .reviewForm {
     display: flex;
     flex-direction: column;
+} */
+
+/* https: //stackoverflow.com/questions/32038419/css-input-field-not-responsive */
+
+#submitButton {
+    background-color: white;
 }

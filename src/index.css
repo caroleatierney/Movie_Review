@@ -9,6 +9,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: Haettenschweiler;
+  background-color: rgb(215, 211, 195);
 }
 
 code {

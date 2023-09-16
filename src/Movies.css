@@ -1,10 +1,15 @@
 .movieContainer {
-    background-color: rgb(215, 211, 195);
+
+    padding: 5%;
 }
 
-img {
-    height: 100%;
-    width: auto;
+.movieImage {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    border: black;
+    border-width: 7px;
+    border-style: solid;
 }
 
 #trailor {
@@ -16,4 +21,13 @@ img {
 .movieRow {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.movieCard {
+    border: 2px;
+    padding: 10px;
+    margin: 1em;
+    border-style: solid;
+    background-color: beige;
 }
