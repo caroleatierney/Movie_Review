@@ -12,5 +12,5 @@
 .starRow {
     display: flex;
     flex-direction: row;
-    background-color: blueviolet;
+    background-color: rgb(189, 166, 210);
 }

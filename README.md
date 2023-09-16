@@ -150,3 +150,60 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+{/* <div>
+    <h1>Movie Project From HELL!!!</h1>
+    <div className="movieContainer">
+        <h1>This is the Movie Container</h1>
+        <h3>{movies.results[i].id}</h3>
+        <h3>{movies.results[i].name}</h3>
+        <div><img src="{movies.results[i].poster}"></img></div>
+        <a id="trailor" href="{movies.results[i].url}">See the trailor!</a>
+
+        <div><img src="https://m.media-amazon.com/images/M/MV5BNTU2ODkyY2MtMjU1NC00NjE1LWEzYjgtMWQ3MzRhMTE0NDc0XkEyXkFqcGdeQXVyMjM4MzQ4OTQ@._V1_.jpg"></img></div>
+        <a id="trailor" href="https://www.imdb.com/title/tt0082971">See the trailor!</a>
+
+        <Stars />
+        <Review />
+        <RatingForm />
+
+    </div>
+</div> */}
+
+
+              // console.log(movieList.results)
+                // console.log("movie list array [0], NAME IS:   =    " + movieList.results[0].name) // with array of movies
+
+
+                // setMovies(resp.data)
+                // console.log(Movies)
+
+                // const movieList = await resp.json();
+                // setMovies(movieList)
+                // console.log("MOVIES ARRAY" + {movieList}) // show movieList object
+                // console.log("movie list array [0], NAME IS:   =    " + movieList.results[0].name) // with array of movies
+
+                // console.log("poster=    " + movieList.results[0].poster) // with array of movies
+
+
+
+
+
+
+
+                    // <div><img src="{movies.results[i].poster}"></img></div>
+                    // <a id="trailor" href="{movies.results[i].url}">See the trailor!</a>
+
+
+// {/* const movieCards = movieList.map(movieCard => (
+        // console.log("movie" = movieCard.name)
+// )) */}
+
+// {/* <h2>id: "2"</h2>
+    // <h2>Indiana Jones and the Raiders of the Lost Ark"</h2>
+    // <div><img src="https://m.media-amazon.com/images/M/MV5BNTU2ODkyY2MtMjU1NC00NjE1LWEzYjgtMWQ3MzRhMTE0NDc0XkEyXkFqcGdeQXVyMjM4MzQ4OTQ@._V1_.jpg"></img></div>
+    // <a id="trailor" href="https://www.imdb.com/title/tt0082971">See the trailor!</a> */}

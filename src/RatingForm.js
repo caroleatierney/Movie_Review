@@ -9,6 +9,8 @@ function RatingForm() {
     const handleSubmit = (event) => {
         event.preventDefault();
         alert('The info you Entered was: {name}, {date}, {review}')
+        // pass these values into review form container
+        // put name date and review into a variablr and pass it to review component
     }
 
     return (

@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import './Review.css';
-import RatingForm from './RatingForm';
+// import RatingForm from './RatingForm';
 
-function Review() {
-    const [name, setName] = useState("");
+function Review({name}) {
 
     return (
         <form>
 
             <div className='review'>
-                {/* <h1>{name}</h1> */}
+                <h1>This is the review container</h1>
+                <h1>{name}</h1>
                 {/* <h1>{date}</h1> */}
                 {/* <h3>{review}</h3> */}
             </div>
