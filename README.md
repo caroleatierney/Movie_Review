@@ -207,3 +207,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     // <h2>Indiana Jones and the Raiders of the Lost Ark"</h2>
     // <div><img src="https://m.media-amazon.com/images/M/MV5BNTU2ODkyY2MtMjU1NC00NjE1LWEzYjgtMWQ3MzRhMTE0NDc0XkEyXkFqcGdeQXVyMjM4MzQ4OTQ@._V1_.jpg"></img></div>
     // <a id="trailor" href="https://www.imdb.com/title/tt0082971">See the trailor!</a> */}
+
+
+        // }
+    // }   
+
+    // return (
+    //     <div>
+    //         {movieCards}
+    //     </div>
+    // )

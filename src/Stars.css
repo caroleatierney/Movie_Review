@@ -8,9 +8,19 @@
     display: inline;
 }
 
-
 .starRow {
     display: flex;
     flex-direction: row;
-    background-color: rgb(189, 166, 210);
+}
+
+.imageContainer {
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

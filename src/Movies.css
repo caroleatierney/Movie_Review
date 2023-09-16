@@ -1,5 +1,5 @@
 .movieContainer {
-    background-color: aquamarine;
+    background-color: rgb(215, 211, 195);
 }
 
 img {
@@ -9,4 +9,11 @@ img {
 
 #trailor {
     text-decoration: none;
+    color: white;
+    background-color: rgb(177, 172, 160);
+}
+
+.movieRow {
+    display: flex;
+    flex-direction: row;
 }

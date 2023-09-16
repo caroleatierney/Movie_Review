@@ -16,7 +16,6 @@ function RatingForm() {
     return (
         <form onSubmit={handleSubmit}>
             <div className='form-group'>
-                <h1>This the form container</h1>
                 <label htmlFor="userName">Name:
                     <input
                         id="name"

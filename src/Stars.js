@@ -13,7 +13,6 @@ function Stars() {
     }
 
     const lowerRating = () => {
-
         if (stars <= 0) {
             alert("No negative ratings allowed!")
         } else {
@@ -21,77 +20,18 @@ function Stars() {
         }
     }
 
-    // the actual stars will appear in the form box
-    //         <img src="./Star.png" class="star" alt="Star" />
-    //         <img src="./Star.png" class="star" alt="Star" />
-    //         <img src="./Star.png" class="star" alt="Star" />
-    //         <img src="./Star.png" class="star" alt="Star" />
-    //         <img src="./Star.png" class="star" alt="Star" />
-
-    // < div class="alert alert-danger" role="alert" >
-    //     5 Stars is the highest rating you can give!
-    // </div>
-
-    // < div class="alert alert-danger" role = "alert" >
-    //             No negative ratings allowed!
-    // </div>
-
-
     return (
-        <div className="container h1">
+        <div>
             <div id="starRow" className="row starRow">
-                <h1>This is the Rating Container don't know why it is narrow</h1>
-                <div className="col">
+                <div className="col starsContainer">
                     <button className="btn btn-success" onClick={addRating}>+</button>
+
+                    <div className="imageContainer">
+                        <img src="./Star.png" className="star" alt="Star" ></img>
+                        <div className="centered">{stars}</div>
+                    </div>
+
                     <button className="btn btn-danger" onClick={lowerRating}>-</button>
-
-                        {/* {
-                            (() => {
-                            if (stars == 1)
-                                return 
-                                <span>test1</span> >
-                            if (stars == 1)
-                                return {
-                                   <span>test2</span>
-                                }
-                            else (stars > 2)
-                                return
-                                   <span>test3</span>
-                            })()
-                        } */}
-
-                    {/* {stars == 1 ? 
-                        <img src="./Star.png" class="star" alt="Star" />
-                     :
-                    stars == 2 ?
-                        <img src="./Star.png" class="star" alt="Star" />
-                        <img src="./Star.png" class="star" alt="Star" />
-
-                    } */}
-
-                    {/* // {stars == 3 &&
-                    //     <img src="./Star.png" class="star" alt="Star" />
-                    //     <img src="./Star.png" class="star" alt="Star" />
-                    //     <img src="./Star.png" class="star" alt="Star" />
-                    // }
-
-                    // {stars == 4 &&
-                    //     <img src="./Star.png" class="star" alt="Star" />
-                    //     <img src="./Star.png" class="star" alt="Star" />
-                    //     <img src="./Star.png" class="star" alt="Star" />
-                    //     <img src="./Star.png" class="star" alt="Star" />
-                    // }
-
-                    // {stars == 5 &&
-                    //     <img src="./Star.png" class="star" alt="Star" />
-                    //     <img src="./Star.png" class="star" alt="Star" />
-                    //     <img src="./Star.png" class="star" alt="Star" />
-                    //     <img src="./Star.png" class="star" alt="Star" />
-                    //     <img src="./Star.png" class="star" alt="Star" />
-                    // } */}
-
-                    <img src="./Star.png" className="star" alt="Star" />
-                    {stars} rating
                 </div>
             </div>
         </div>
@@ -99,3 +39,65 @@ function Stars() {
 }
 
 export default Stars;
+
+
+// the actual stars will appear in the form box
+//         <img src="./Star.png" class="star" alt="Star" />
+//         <img src="./Star.png" class="star" alt="Star" />
+//         <img src="./Star.png" class="star" alt="Star" />
+//         <img src="./Star.png" class="star" alt="Star" />
+//         <img src="./Star.png" class="star" alt="Star" />
+
+// < div class="alert alert-danger" role="alert" >
+//     5 Stars is the highest rating you can give!
+// </div>
+
+// < div class="alert alert-danger" role = "alert" >
+//             No negative ratings allowed!
+// </div>
+
+
+// {/* {
+//                             (() => {
+//                             if (stars == 1)
+//                                 return 
+//                                 <span>test1</span> >
+//                             if (stars == 1)
+//                                 return {
+//                                    <span>test2</span>
+//                                 }
+//                             else (stars > 2)
+//                                 return
+//                                    <span>test3</span>
+//                             })()
+//                         } */}
+
+// {/* {stars == 1 ? 
+//                         <img src="./Star.png" class="star" alt="Star" />
+//                      :
+//                     stars == 2 ?
+//                         <img src="./Star.png" class="star" alt="Star" />
+//                         <img src="./Star.png" class="star" alt="Star" />
+
+//                     } */}
+
+// {/* // {stars == 3 &&
+//                     //     <img src="./Star.png" class="star" alt="Star" />
+//                     //     <img src="./Star.png" class="star" alt="Star" />
+//                     //     <img src="./Star.png" class="star" alt="Star" />
+//                     // }
+
+//                     // {stars == 4 &&
+//                     //     <img src="./Star.png" class="star" alt="Star" />
+//                     //     <img src="./Star.png" class="star" alt="Star" />
+//                     //     <img src="./Star.png" class="star" alt="Star" />
+//                     //     <img src="./Star.png" class="star" alt="Star" />
+//                     // }
+
+//                     // {stars == 5 &&
+//                     //     <img src="./Star.png" class="star" alt="Star" />
+//                     //     <img src="./Star.png" class="star" alt="Star" />
+//                     //     <img src="./Star.png" class="star" alt="Star" />
+//                     //     <img src="./Star.png" class="star" alt="Star" />
+//                     //     <img src="./Star.png" class="star" alt="Star" />
+//                     // } */}
