@@ -12,18 +12,23 @@
     display: flex;
     flex-direction: row;
 }
-
-.imageContainer {
-    position: relative;
-    text-align: center;
+/* 
+.sizeBtn {
+    display: flex;
+    flex: 0 0 20%;
 }
 
-.centered {
+#starImg {
+    display: flex;
+    flex: 0 0 80%;
+} */
+
+/* .centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+} */
 
 .starsContainer {
     display: flex;

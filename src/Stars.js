@@ -30,14 +30,18 @@ function Stars() {
         <div>
             <div id="starRow" className="row starRow">
                 <div className="col starsContainer">
-                    <button className="btn btn-success" onClick={addRating}>+</button>
+                    <div className="col-2 sizeBtn">
+                        <button className="btn btn-success" onClick={addRating}>+</button>
+                    </div>
 
-                    <div className="imageContainer">
+                    <div className="starContainer col-4 starImg">
                         <img src="./Star.png" className="star" alt="Star" ></img>
                         <div className="centered">{stars}</div>
                     </div>
 
-                    <button className="btn btn-danger" onClick={lowerRating}>-</button>
+                    <div className="col-2 sizeBtn">
+                        <button className="btn btn-danger" onClick={lowerRating}>-</button>
+                    </div>
                 </div>
             </div>
         </div>
