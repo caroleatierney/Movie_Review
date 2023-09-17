@@ -150,22 +150,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-        <div>
-            <h1 id="appTitle">Indiana Jones movie reviews</h1>
-            <div className="col movieContainer">
-                <div className="row movieRow">
-                    {movies.map( (movie, index) => ( 
-                        <div className="col-6 movieCard" key={index}>
-                            <h1 id="title">{movie.name}</h1>
-                            <img src={movie.poster} className="movieImage" />
-                            {/* <button id="trailor"> */}
-                                {/* <a id="aTag" href="{movie.url}" >Watch the Trailor!</a> */}
-                            {/* </button> */}
-                            <RatingForm />
-                        </div>
-                    )) }
-                </div>
-            </div>
-        </div>

@@ -5,11 +5,16 @@ import Stars from './Stars';
 import Movies from './Movies';
 
 function RatingForm() {
+    // set state for variable changing
     const [name, setName] = useState("");
     const [review, setReview] = useState("");
+    
+    // set date to current date
     const reviewDate = new Date().toDateString();
+    
     // const [reviewsArray, setReviewsArray] = useState("");
 
+    // This is set up b/c I tried to see if I could get a hard coded array to work for reviews
     let movieReviews = [
         {
             name: "Chuck Taylor",
@@ -28,6 +33,7 @@ function RatingForm() {
         }
     ]
 
+    // couldn't get to this b/c other things not working
     // setReviewsArray("movieReviews")
 
     // when the submit button is pressed, save review and pass it
@@ -47,6 +53,10 @@ function RatingForm() {
         // setReview=("");
     };
 
+    // return the form for reviewer to add their review
+    // include stars component for users to update
+    // still trying to figure out how to add array of reviews
+    // - commented out for now
     return (
          <form onSubmit={handleSubmit}>
             <Stars />
@@ -57,7 +67,6 @@ function RatingForm() {
                         id="name"
                         value={name}
                         placeholder="Name"
-                        required
                         type='text'
                         onChange={(e) => setName(e.target.value)}
                     />
@@ -68,7 +77,6 @@ function RatingForm() {
                         id="review"
                         value={review}
                         placeholder="Review"
-                        required
                         type='text'
                         rows="4"
                         cols="50"

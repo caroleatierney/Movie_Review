@@ -2,8 +2,11 @@ import React, { useEffect, useState } from 'react';
 import './Stars.css';
 
 function Stars() {
+    // setting state for stars
     const [stars, setStars] = useState(0);
     
+    // Add one each time green (+) button is clicked
+    // Alert if over >=5
     const addRating = () => {
         if (stars >= 5) {
             alert("5 Stars is the highest rating you can give!")
@@ -12,6 +15,8 @@ function Stars() {
         }
     }
 
+    // Subtract one each time red (-) button is clicked
+    // Alert if over <=0
     const lowerRating = () => {
         if (stars <= 0) {
             alert("No negative ratings allowed!")
@@ -20,6 +25,7 @@ function Stars() {
         }
     }
 
+    // return html with stars buttons for component
     return (
         <div>
             <div id="starRow" className="row starRow">

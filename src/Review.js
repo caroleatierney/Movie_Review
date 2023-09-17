@@ -1,3 +1,6 @@
+// I think this is verbatum from lab, but this. is not working? Not sure why? passing in hard coded array from RatingForm/
+
+
 // import React, {Component} from 'react';
 // import './Review.css';
 // import RatingForm from './RatingForm';
