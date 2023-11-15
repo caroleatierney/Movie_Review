@@ -2,7 +2,7 @@ import React, {  useState } from 'react';
 import './RatingForm.css';
 import Stars from './Stars';
 // import Review from './Review';
-import Movies from './Movies';
+// import Movies from './Movies';
 
 function RatingForm() {
     // set state for variable changing

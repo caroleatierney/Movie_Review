@@ -5,6 +5,7 @@ import RatingForm from './RatingForm';
 
 // set query for api to only return titles/search with Indiana
 let query = "Indiana"
+
 // save API URL with Query
 const API_URL = "https://movie-database-imdb.p.rapidapi.com/movies/?name=" + query;
 
@@ -12,6 +13,7 @@ const Movies = () => {
     const [isLoading, setIsLoading] = useState(true)
     const [isError, setIsError] = useState(false)
     const [movies, setMovies] = useState([]);
+
 
     // was attempting to try to add the reviews
     // Rating form calls this function passing in the review object 
@@ -38,7 +40,7 @@ const Movies = () => {
 
                 // assign variable to response object's results 
                 setMovies(movieList.results)
-                // console.log(movieList)
+                console.log(movieList)
                 
             } catch (error) {
                 setIsError(true)  
@@ -47,7 +49,7 @@ const Movies = () => {
             setIsLoading(false)
         };
 
-    // I'll be hinest - not quite sure on useEffect....
+    // This is the first fetch (useEffect Hook)
     useEffect(() => {
         fetchMovies();
     }, []);
