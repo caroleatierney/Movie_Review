@@ -67,7 +67,7 @@ const Movies = () => {
     // return a movie div to the App component with movie name, poster and trailor link
     return (
         <div>
-            <h1 id="appTitle">Indiana Jones movie reviews</h1>
+            <h1 id="appTitle">Indiana Jones movie reviews - this is to test the new remote is set</h1>
             <div className="col movieContainer">
                 <div className="row movieRow">
                     {movies.map( (movie, index) => ( 
