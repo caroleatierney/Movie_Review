@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/week14_assignment_movies/static/css/main.f758eff1.css",
-    "main.js": "/week14_assignment_movies/static/js/main.b93a7144.js",
+    "main.js": "/week14_assignment_movies/static/js/main.b3fece69.js",
     "static/js/787.222706d7.chunk.js": "/week14_assignment_movies/static/js/787.222706d7.chunk.js",
     "index.html": "/week14_assignment_movies/index.html",
     "main.f758eff1.css.map": "/week14_assignment_movies/static/css/main.f758eff1.css.map",
-    "main.b93a7144.js.map": "/week14_assignment_movies/static/js/main.b93a7144.js.map",
+    "main.b3fece69.js.map": "/week14_assignment_movies/static/js/main.b3fece69.js.map",
     "787.222706d7.chunk.js.map": "/week14_assignment_movies/static/js/787.222706d7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f758eff1.css",
-    "static/js/main.b93a7144.js"
+    "static/js/main.b3fece69.js"
   ]
 }
