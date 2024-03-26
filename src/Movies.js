@@ -38,9 +38,17 @@ const Movies = () => {
                 // assign variable to response's object
                 const movieList = await resp.json();
 
+                // filter retrieved list for movies only
+                const filteredMovies = movieList.results.filter(
+                  (movie) => movie.type === "movie" || movie.type === "tvSeries"
+                );
+                setMovies(filteredMovies);
+
                 // assign variable to response object's results 
-                setMovies(movieList.results)
+                // setMovies(movieList.results)
+
                 console.log(movieList)
+                console.log(movieList.results);
                 
             } catch (error) {
                 setIsError(true)  
@@ -73,7 +81,7 @@ const Movies = () => {
                     {movies.map( (movie, index) => ( 
                         <div className="col-6" key={index}>
                             <h1 id="title">{movie.name}</h1>
-                            <img src={movie.poster} className="movieImage" />
+                            <img src={movie.poster} className="movieImage" alt={movie.name} />
                             <a href={movie.url} id="trailor" target="_blank">Watch the Trailor!</a>
                             <RatingForm />
                         </div>
