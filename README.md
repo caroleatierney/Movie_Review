@@ -8,10 +8,6 @@ To prevent the second call to fetchMovies, you can check the component's renderi
 
 if you want to clear the console each time, use console.clear();
 
-Database is through RapidAPI: Movie Database IMDb
-
-Switched to $5 a month because went over 1,000 in 3 days. Already at 1,800. Everytime you make a change it fetches twice. 
-
 ### Coding Steps:
 - Using what you've learned this week, create a page of an application that enables users to vote and leave reviews on movies.
 - All data necessary for this assignment, including Movies and Reviews, can be pulled from an API or you can create the Movies and their Reviews yourself.
@@ -25,14 +21,6 @@ Switched to $5 a month because went over 1,000 in 3 days. Already at 1,800. Ever
     - All this data can be stored in an array, no networking or database needed for this assignment.
 
 # This is how I initially set up this React Project
-
-## based on these links:
-    ### getting info from an API and displaying
-        - https://dev.to/gregpetropoulos/github-repo-setup-for-react-app-1dnd
-    ### Using Rapid API's Movie API
-        - https://www.youtube.com/watch?v=-7mCyBD5ueM
-    ### Endpoints
-        - https://rapidapi.com/SAdrian/api/moviesdatabase
 
 # VSCODE
 - Don't start by creating a new github repostory.
@@ -55,13 +43,6 @@ Switched to $5 a month because went over 1,000 in 3 days. Already at 1,800. Ever
 - $ git push -u origin main
 - $ git push --set-upstream origin main
 
-RAPIDAPI
-- Login and get key
-- put key in .env
-- put .env in .gitignore
-- Endpoint documentation:
-    - https://rapidapi.com/rapidapi/api/movie-database-alternative/
-
 # Getting Started with Create React App
 - This was a real simple tutorial to understand how to get and display api data
 - https://www.youtube.com/watch?v=43aFTbyQtgo
@@ -77,5 +58,9 @@ RAPIDAPI
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes.
 You may also see any lint errors in the console.
+
+Switched from RapidAPI to the movie db:
+https://www.themoviedb.org/settings/api
+
